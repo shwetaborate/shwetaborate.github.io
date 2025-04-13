@@ -12,7 +12,7 @@ email: shwetalh1993@gmail.com
 website:  https://shwetaborate.github.io/
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: never
 
 # Social links
 
@@ -22,7 +22,7 @@ github_username: shwetaborate
 # facebook_username: jekyll
 # flickr_username: jekyll
 #instagram_username: jameswgrant
-linkedin_username: Shweta Borate
+linkedin_username: shweta-borate
 # xing_username: jekyll
 # pinterest_username: jekyll
 #youtube_username: globalmtb
@@ -77,6 +77,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        border: weak
         title: Prodigy Infotech
         #link: boringcompany.com
         # link_text: boringcompany.com
@@ -89,6 +90,7 @@ content:
             - Expected completion: May 2025. Deliverables to be hosted on GitHub. 
         
       - layout: left
+        border: weak
         title: NRC Health
         link: https://nrchealth.com/
         link_text: NRC Health
@@ -107,6 +109,7 @@ content:
             -	Managed release workflows using Octopus Deploy to validate system functionality after production updates.
         
       - layout: left
+        #border: weak
         title: Enmark Systems
         link: https://eniteo.enmark.com/
         link_text: Enmark Systems
@@ -128,23 +131,27 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
-        title: Savitribai Phule Pune University
-        caption: 2015 - 2017
-        sub_title: ME Computer Engineering
-        #quote: >
-          #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        #description: | # this will include new lines to allow paragraphs
-          #During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+                  - layout: top-middle
+                    border: weak
+                    title: Savitribai Phule Pune University
+                    caption: 2015 - 2017
+                    sub_title: ME Computer Engineering
+                    #quote: >
+                      #Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+                    #description: | # this will include new lines to allow paragraphs
+                      #During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
 
-          #I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
+                      #I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+                  - layout: top-middle
+                    title: Savitribai Phule Pune University
+                    caption: 2011 - 2015
+                    sub_title: BE Computer Engineering
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in quality Assurance and software engineering some of my other interests and hobbies are:
-      - Reading Jane Austen Vriations
-      - Gaming
+      Alongside my interests in Quality Assurance and Software Engineering some of my other interests and hobbies are:
+      - Reading Jane Austen Variations
+      - Walking
      # - Knitting
      # - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
 
@@ -152,15 +159,16 @@ content:
       #![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
 
 # Footer
-footer_show_references: true
+footer_show_references: false
 # references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
-  sass_dir: _sass
-  style: compressed
+  #sass_dir: _sass
+  #style: compressed
+  sass_dir: assets/css
 
 plugins:
  - jekyll-seo-tag

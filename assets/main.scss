@@ -3,3 +3,47 @@
 ---
 
 @import 'modern-resume-theme';
+
+/* ✅ Custom overrides */
+
+/* Change overall background and text color */
+
+.header-container {
+    background-color: #d5ed9d; /* Change this to your desired color */
+    padding: 20px;
+  }
+
+  .header-container h1, .header-container h2 {
+    color:  #0e4820; /* Change this to your desired text color */
+  }
+
+ul.icons a:hover {
+    background-color: #ba4c76;
+    color:  #ecf5ef;
+  }
+body {
+    background-color:#f9f9f9; /* change to any color you like */
+    color: #0e4820; /* default font color */
+    border-color: rgb(250, 189, 211);
+  }
+  
+  /* Header and section titles */
+  h1, h2, h3, h4, h5, h6 {
+    color:#b04a4c; /* Dark blue titles */
+  }
+  
+  /* Links */
+  a {
+    color:  #84a59dff;
+  }
+  
+  a:hover {
+    color: #ba4c76;
+  }
+
+  mark {
+    color: #fff;
+    background-color:rgb(216, 171, 98);
+    border-radius: 3px;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
+  }
