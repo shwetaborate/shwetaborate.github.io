@@ -48,12 +48,11 @@ linkedin_username: Shweta Borate
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-   Hi, my name is Shweta BorateI'm a QA Engineer with 3+ years of hands-on experience in both manual and automated testing of enterprise applications. I’ve worked extensively with ERP systems, API testing, and building automation frameworks that actually make life easier.
+  Hi, my name is Shweta Borate. I'm a QA Engineer with 3+ years of hands-on experience in both manual and automated testing of enterprise applications. I’ve worked extensively with ERP systems, API testing, and building automation frameworks that actually make life easier.
 
-I enjoy connecting the dots between business needs and tech solutions—whether that’s crafting smart test strategies, managing bugs, or ensuring smooth cloud deployments. I'm comfortable working in Agile teams and have a solid background in system integration and optimizing processes to keep things running efficiently.
+  I enjoy connecting the dots between business needs and tech solutions—whether that’s crafting smart test strategies, managing bugs, or ensuring smooth cloud deployments. I'm comfortable working in Agile teams and have a solid background in system integration and optimizing processes to keep things running efficiently.
 
   I am most skilled in: <mark>Manual Testing</mark>, <mark>Java</mark>, <mark>Selenium</mark>, <mark>Postman</mark>, <mark>RestAssured</mark>, <mark>SQL</mark> and <mark>AWS</mark>
-
 content:
   # title: Projects # Title for the section
 # layout: list # Type of content section (list/text)
@@ -86,42 +85,45 @@ content:
         #quote: >
         # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            • Currently enrolled in an ongoing software testing internship, developing 5 real-time projects focused on creating test plans, writing test cases, and building automation scripts using Selenium (Java), Playwright (Python), 
-              Postman, and Rest Assured. 
-              Expected completion: May 2025. Deliverables to be hosted on GitHub. 
+            - Currently enrolled in an ongoing software testing internship, developing 5 real-time projects focused on creating test plans, writing test cases, and building automation scripts using Selenium (Java), Playwright (Python), Postman, and Rest Assured. 
+            - Expected completion: May 2025. Deliverables to be hosted on GitHub. 
+        
+      - layout: left
         title: NRC Health
         link: https://nrchealth.com/
-         link_text: https://nrchealth.com/
+        link_text: NRC Health
         sub_title: QA Engineer
         caption: Feb 2022 to Aug 2022
         #quote: >
         # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            •	Conducted API, functional, and regression testing for web applications and data interfaces.
-            •	Designed and executed SQL queries for data validation and supported workflows through extensive data analysis.
-            •	Performed API testing using Postman and Swagger to ensure seamless data integration between multiple systems.
-            •	Backend Testing in AWS.
-            •	Monitored and analyzed logs in Splunk to troubleshoot API issues and track data flow.
-            •	Supported User Acceptance Testing (UAT) by validating interfaces and workflows against business requirements.
-            •	Collaborated with the development team to address defects and ensure the successful deployment of software.
-            •	Managed release workflows using Octopus Deploy to validate system functionality after production updates.
+            - Conducted API, functional, and regression testing for web applications and data interfaces.
+            -	Designed and executed SQL queries for data validation and supported workflows through extensive data analysis.
+            -	Performed API testing using Postman and Swagger to ensure seamless data integration between multiple systems.
+            -	Backend Testing in AWS.
+            -	Monitored and analyzed logs in Splunk to troubleshoot API issues and track data flow.
+            -	Supported User Acceptance Testing (UAT) by validating interfaces and workflows against business requirements.
+            -	Collaborated with the development team to address defects and ensure the successful deployment of software.
+            -	Managed release workflows using Octopus Deploy to validate system functionality after production updates.
+        
+      - layout: left
         title: Enmark Systems
         link: https://eniteo.enmark.com/
-         link_text: https://eniteo.enmark.com/
+        link_text: Enmark Systems
         sub_title: QA Engineer
         caption: Aug 2019 to Feb 2022
         #quote: >
         # Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
-            •	Tested ERP software for the steel industry, validating core processes and system functionality.
-            •	Performed data validation using SQL for integration between ERP systems and third-party applications.
-            •	Participated in specification reviews and roadmap planning to align product development with business requirements.
-            •	Analyzed and reproduced customer-reported issues by collaborating with Tier 1 and Tier 2 teams.
-            •	Executed regression and patch testing for beta and production environments, ensuring system stability.
-            •	Tracked and managed defects using TFS to ensure timely resolution.
-            •	Worked closely with product owners and BA teams to understand user needs and define test strategies.
-            •	Analyzed customer-reported issues and provided structured feedback on system enhancements.
-            •	Conducted regression testing across multiple ERP modules and maintained detailed documentation.
+            - Tested ERP software for the steel industry, validating core processes and system functionality.
+            -	Performed data validation using SQL for integration between ERP systems and third-party applications.
+            -	Participated in specification reviews and roadmap planning to align product development with business requirements.
+            -	Analyzed and reproduced customer-reported issues by collaborating with Tier 1 and Tier 2 teams.
+            -	Executed regression and patch testing for beta and production environments, ensuring system stability.
+            -	Tracked and managed defects using TFS to ensure timely resolution.
+            -	Worked closely with product owners and BA teams to understand user needs and define test strategies.
+            -	Analyzed customer-reported issues and provided structured feedback on system enhancements.
+            -	Conducted regression testing across multiple ERP modules and maintained detailed documentation.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
