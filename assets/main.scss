@@ -18,7 +18,7 @@
   }
 
 ul.icons a:hover {
-    background-color: #ba4c76;
+    background-color:  #0e4820;
     color:  #ecf5ef;
   }
 body {
@@ -29,8 +29,11 @@ body {
   
   /* Header and section titles */
   h1, h2, h3, h4, h5, h6 {
-    color:#b04a4c; /* Dark blue titles */
+    color: #0e4820; /* Dark blue titles */
   }
+  h3 {
+    font-weight: 450;
+}
   
   /* Links */
   a {
@@ -43,7 +46,7 @@ body {
 
   mark {
     color: #fff;
-    background-color:rgb(216, 171, 98);
+    background-color: #0e4820;
     border-radius: 3px;
     box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);
   }
